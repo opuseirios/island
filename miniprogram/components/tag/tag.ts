@@ -1,0 +1,18 @@
+Component({
+    properties:{
+        text:String
+    },
+    //设置slot
+    options:{
+        multipleSlots:true
+    },
+    //外部样式
+    externalClasses:['tag-class'],
+    methods:{
+        onTap(){
+            this.triggerEvent('tapping',{
+                text:this.properties.text
+            })
+        }
+    }
+})

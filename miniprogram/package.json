@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "js-base64": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/js-base64": "^2.3.1"
+  }
+}

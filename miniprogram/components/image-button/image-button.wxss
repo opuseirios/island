@@ -1,0 +1,7 @@
+.container{
+    padding: 0 !important;
+    border:none !important;
+    width:auto;
+    line-height: normal;
+    min-height: auto;
+}
